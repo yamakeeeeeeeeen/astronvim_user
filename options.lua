@@ -1,8 +1,42 @@
+-- return {
+--   opt = {
+--     encoding = 'utf-8',
+--     scriptencoding = 'utf-8',
+--     fileencodings = 'utf-8,sjis,cp932,euc-jp',
+--     fileformats = 'unix,dos,mac',
+--     number = true,
+--     relativenumber = false,
+--     autoindent = true,
+--     tabstop = 2,
+--     shiftwidth = 2,
+--     expandtab = true,
+--     splitright = true,
+--     cursorline = true,
+--     clipboard = 'unnamed',
+--     hls = true,
+--     helplang = 'ja',
+--     lazyredraw = true,
+--     ttyfast = true,
+--     hlsearch = true,
+--     ttimeoutlen = 1,
+--     scrolloff = 5,
+--     laststatus = 2,
+--     showmode = false,
+--     incsearch = true,
+--     ignorecase = true,
+--     smartcase = true,
+--     visualbell = true,
+--     splitright = true,
+--     splitbelow = true,
+--     mouse = 'a',
+--   }
+-- }
+
 -- set vim options here (vim.<first_key>.<second_key> = value)
 return {
   opt = {
     -- set to true or false etc.
-    relativenumber = true, -- sets vim.opt.relativenumber
+    relativenumber = false, -- sets vim.opt.relativenumber
     number = true, -- sets vim.opt.number
     spell = false, -- sets vim.opt.spell
     signcolumn = "auto", -- sets vim.opt.signcolumn to auto
@@ -16,7 +50,6 @@ return {
     diagnostics_mode = 3, -- set the visibility of diagnostics in the UI (0=off, 1=only show in status line, 2=virtual text off, 3=all on)
     icons_enabled = true, -- disable icons in the UI (disable if no nerd font is available, requires :PackerSync after changing)
     ui_notifications_enabled = true, -- disable notifications when toggling UI elements
-    resession_enabled = false, -- enable experimental resession.nvim session management (will be default in AstroNvim v4)
   },
 }
 -- If you need more control, you can use the function()...end notation
