@@ -10,11 +10,11 @@ return {
           styles = {
             comments = "italic",
             keywords = "bold",
-            types = "italic,bold",
-          },
-        },
+            types = "italic,bold"
+          }
+        }
       }
-    end,
+    end
   },
 
   ["ellisonleao/gruvbox.nvim"] = {
@@ -22,11 +22,9 @@ return {
       require("gruvbox").setup {
         contrast = "soft",
         transparent_mode = true,
-        overrides = {
-          StatusLine = { bg = "#282828" },
-        },
+        overrides = { StatusLine = { bg = "#282828" } }
       }
-    end,
+    end
   },
 
   { "luisiacc/gruvbox-baby" },
@@ -35,5 +33,5 @@ return {
 
   { "sainnhe/everforest" },
 
-  { "savq/melange" },
+  { "savq/melange" }
 }
